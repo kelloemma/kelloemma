@@ -1,0 +1,51 @@
+.header-outter-container{
+    background-color:  rgb(20, 20, 20);
+    background-color: transparent; 
+    position:sticky;
+          display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    height: 9vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+   
+  
+}
+.header-container{
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+      width: 90%;
+
+}
+
+.header-left ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+ margin-left: 50px;
+  
+
+}
+.header-right ul{
+   width: 150%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+ 
+  
+
+}
+.accountBox{
+       display: flex;
+   
+    align-items: center;
+}

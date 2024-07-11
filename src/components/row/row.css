@@ -1,0 +1,47 @@
+.rowOutterContainer h1{
+    color: white;
+ padding-left: 200px;
+ padding-top: 20px;
+}
+.rowPoster img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  margin-right: 20px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+.rowPoster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.rowPoster::-webkit-scrollbar {
+	display: none;
+}
+.rowPoster img:hover {
+  transform: scale(1.08);
+}
+
+
+.largeRowPoster img{
+   width: 100%;
+  object-fit: contain;
+  max-height: 300px;
+  margin-right: 20px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+.largeRowPoster{
+     display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.largeRowPoster img:hover {
+  transform: scale(1.09);
+}
+.largeRowPoster::-webkit-scrollbar {
+	display: none;
+}
