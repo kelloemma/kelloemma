@@ -1,6 +1,6 @@
 .bannerOutterContainer{
        margin-top:-10vh;
-    height:110vh;
+    height:80vh;
     /* margin-bottom: 10px; */
     color: white;
 	object-fit: contain;
@@ -46,7 +46,7 @@ margin-left: 20px;
 	background-color: #c6c6c6;
 	transition: all0.2s;
 }
-/* .bannerFadeBottom {
+.bannerFadeBottom {
 	height: 10vh;
 	background-image: linear-gradient(
 		180deg,
@@ -54,4 +54,4 @@ margin-left: 20px;
 		rgb(37, 37, 37, 0.91),
 		#111
 	);
-} */
+}
